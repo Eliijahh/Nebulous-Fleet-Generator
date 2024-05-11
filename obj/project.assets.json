@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\WpfApp1\\WpfApp1.csproj",
-      "projectName": "WpfApp1",
-      "projectPath": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\WpfApp1\\WpfApp1.csproj",
+      "projectUniqueName": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\NebulousFleetGenerator.csproj",
+      "projectName": "NebulousFleetGenerator",
+      "projectPath": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\NebulousFleetGenerator.csproj",
       "packagesPath": "C:\\Users\\paolo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\WpfApp1\\obj\\",
+      "outputPath": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\paolo\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\WpfApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC747C15-B666-4054-8592-C33C95B9940B}|WpfApp1.csproj|c:\\users\\paolo\\documents\\github\\nebulous-fleet-generator\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BC747C15-B666-4054-8592-C33C95B9940B}|WpfApp1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BC747C15-B666-4054-8592-C33C95B9940B}|NebulousFleetGenerator.csproj|c:\\users\\paolo\\documents\\github\\nebulous-fleet-generator\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC747C15-B666-4054-8592-C33C95B9940B}|NebulousFleetGenerator.csproj|solutionrelative:ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC747C15-B666-4054-8592-C33C95B9940B}|WpfApp1.csproj|c:\\users\\paolo\\documents\\github\\nebulous-fleet-generator\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC747C15-B666-4054-8592-C33C95B9940B}|WpfApp1.csproj|c:\\users\\paolo\\documents\\github\\nebulous-fleet-generator\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC747C15-B666-4054-8592-C33C95B9940B}|WpfApp1.csproj|solutionrelative:slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC747C15-B666-4054-8592-C33C95B9940B}|WpfApp1.csproj|c:\\users\\paolo\\documents\\github\\nebulous-fleet-generator\\sprintership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC747C15-B666-4054-8592-C33C95B9940B}|WpfApp1.csproj|solutionrelative:sprintership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC747C15-B666-4054-8592-C33C95B9940B}|WpfApp1.csproj|c:\\users\\paolo\\documents\\github\\nebulous-fleet-generator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC747C15-B666-4054-8592-C33C95B9940B}|WpfApp1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC747C15-B666-4054-8592-C33C95B9940B}|WpfApp1.csproj|c:\\users\\paolo\\documents\\github\\nebulous-fleet-generator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC747C15-B666-4054-8592-C33C95B9940B}|WpfApp1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +35,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\WpfApp1\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\WpfApp1\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-11T20:03:57.775Z",
+              "Title": "Ship.cs",
+              "DocumentMoniker": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\Ship.cs",
+              "RelativeDocumentMoniker": "Ship.cs",
+              "ToolTip": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\Ship.cs",
+              "RelativeToolTip": "Ship.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T21:18:39.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SprinterShip.cs",
+              "DocumentMoniker": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\SprinterShip.cs",
+              "RelativeDocumentMoniker": "SprinterShip.cs",
+              "ToolTip": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\SprinterShip.cs",
+              "RelativeToolTip": "SprinterShip.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T20:20:56.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T20:03:54.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\WpfApp1\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\WpfApp1\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Slot.cs",
+              "DocumentMoniker": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\Slot.cs",
+              "RelativeDocumentMoniker": "Slot.cs",
+              "ToolTip": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\Slot.cs",
+              "RelativeToolTip": "Slot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T20:03:54.93Z",
+              "WhenOpened": "2024-05-11T20:19:57.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\paolo\\Documents\\GitHub\\Nebulous-Fleet-Generator\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-11T20:03:57.775Z",
               "EditorCaption": ""
             }
           ]
