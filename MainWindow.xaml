@@ -9,6 +9,7 @@
     <Grid>
         <Label Content="Sprinter" HorizontalAlignment="Left" Margin="86,77,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="SprinterNumberTextBox" HorizontalAlignment="Left" Margin="161,82,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="29" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="GenerateFleet" Content="Generate" HorizontalAlignment="Center" Margin="0,331,0,0" VerticalAlignment="Top" Width="68" Height="26" Click="GenerateButtonClick" ClickMode="Release"/>
 
     </Grid>
 </Window>

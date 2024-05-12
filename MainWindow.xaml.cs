@@ -21,14 +21,18 @@ namespace NebulousFleetGenerator
             InitializeComponent();
         }
 
-        //create a class that have a name string, a location string, and three Size 1, 2, 3 int variables
-        public class Slot
+        void GenerateButtonClick(object sender, RoutedEventArgs e)
         {
-            public string Name { get; set; }
-            public string Location { get; set; }
-            public int Size1 { get; set; }
-            public int Size2 { get; set; }
-            public int Size3 { get; set; }
+            //generate all modules using the Module class
+            var modulesBuilder = new Module();
+            var modules = modulesBuilder.generateModules();
+
+            //print all modules to the console
+            foreach(var module in modules)
+            {
+                Console.WriteLine(module.getName());
+            }
+
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NebulousFleetGenerator/1.0.0": {
+        "runtime": {
+          "NebulousFleetGenerator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NebulousFleetGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
