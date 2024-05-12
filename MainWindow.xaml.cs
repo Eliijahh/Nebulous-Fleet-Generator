@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace NebulousFleetGenerator
 {
@@ -21,23 +22,28 @@ namespace NebulousFleetGenerator
             InitializeComponent();
         }
 
-        void GenerateButtonClick(object sender, RoutedEventArgs e)
+        private void GenerateButtonClick(object sender, RoutedEventArgs e)
         {
-            //generate all modules using the Module class
+            //initialise all modules
             var modulesBuilder = new Module();
             var modules = modulesBuilder.generateModules();
 
-            //print all modules to the console
-            foreach(var module in modules)
+            //initialise the shipbuilder
+            ShipBuilder shipBuilder = new ShipBuilder();
+
+            //create a ship list to contain all created ships
+            List<Ship> ships = new List<Ship>();
+
+            for (int i = 0; i < int.Parse(SprinterNumberTextBox.Text); i++)
             {
-                Console.WriteLine(module.getName());
+                ships.Add(shipBuilder.generate());    
             }
 
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            // only accept numbers
+            // only accept numbers, and numbers between 0 and 5
             if (!int.TryParse(((TextBox)sender).Text, out _))
             {
                 ((TextBox)sender).Text = "";

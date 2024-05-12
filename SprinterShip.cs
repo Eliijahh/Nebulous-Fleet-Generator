@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,26 +9,42 @@ namespace NebulousFleetGenerator
 {
     class SprinterShip : Ship
     {
-        int power = 0;
-        int crew = 40;
+        public SprinterShip()
+        {
+            power = 0;
+            crew = 40;
+            shipClass = "Sprinter";
+            slots = GenerateSlots();
+            InstallStandardModules(slots);  
+        }
 
-        public override void GenerateSlots()
+        public override List<Slot> GenerateSlots()
         {
             slots = new List<Slot>
             {
-                new Slot { Name = "Mount 1", Location = "Mount", Size1 = 3, Size2 = 4, Size3 = 5 },
-                new Slot { Name = "Mount 2", Location = "Mount", Size1 = 3, Size2 = 2, Size3 = 3 },
-                new Slot { Name = "Mount 3", Location = "Mount", Size1 = 2, Size2 = 2, Size3 = 2 },
-                new Slot { Name = "Mount 4", Location = "Mount", Size1 = 2, Size2 = 2, Size3 = 2 },
-                new Slot { Name = "Compartment 1", Location = "Compartment", Size1 = 4, Size2 = 1, Size3 = 6 },
-                new Slot { Name = "Compartment 2", Location = "Compartment", Size1 = 4, Size2 = 1, Size3 = 6 },
-                new Slot { Name = "Compartment 3", Location = "Compartment", Size1 = 3, Size2 = 1, Size3 = 3 },
-                new Slot { Name = "Compartment 4", Location = "Compartment", Size1 = 3, Size2 = 1, Size3 = 3 },
-                new Slot { Name = "Module 1", Location = "Module", Size1 = 3, Size2 = 3, Size3 = 3 },
-                new Slot { Name = "Module 2", Location = "Module", Size1 = 8, Size2 = 3, Size3 = 6 },
-                new Slot { Name = "Module 3", Location = "Module", Size1 = 2, Size2 = 2, Size3 = 2 },
-                new Slot { Name = "Module 4", Location = "Module", Size1 = 2, Size2 = 2, Size3 = 2 }
+                new Slot { name = "Mount 1", location = "Mount", size1 = 3, size2 = 4, size3 = 5 },
+                new Slot { name = "Mount 2", location = "Mount", size1 = 3, size2 = 2, size3 = 3 },
+                new Slot { name = "Mount 3", location = "Mount", size1 = 2, size2 = 2, size3 = 2 },
+                new Slot { name = "Mount 4", location = "Mount", size1 = 2, size2 = 2, size3 = 2 },
+                new Slot { name = "Compartment 1", location = "Compartment", size1 = 4, size2 = 1, size3 = 6 },
+                new Slot { name = "Compartment 2", location = "Compartment", size1 = 4, size2 = 1, size3 = 6 },
+                new Slot { name = "Compartment 3", location = "Compartment", size1 = 3, size2 = 1, size3 = 3 },
+                new Slot { name = "Compartment 4", location = "Compartment", size1 = 3, size2 = 1, size3 = 3 },
+                new Slot { name = "Module 1", location = "Module", size1 = 3, size2 = 3, size3 = 3 },
+                new Slot { name = "Module 2", location = "Module", size1 = 8, size2 = 3, size3 = 6 },
+                new Slot { name = "Module 3", location = "Module", size1 = 2, size2 = 2, size3 = 2 },
+                new Slot { name = "Module 4", location = "Module", size1 = 2, size2 = 2, size3 = 2 }
             };
+
+            return slots;
+        }
+
+        public override void InstallStandardModules(List<Slot> slots)
+        {
+            slots.Single(s => s.name == "Compartment 1").installModule(ModuleRegistry.Modules.Single(m => m.Name == "Basic CIC"));
+            slots.Single(s => s.name == "Module 1").installModule(ModuleRegistry.Modules.Single(m => m.Name == "FR3300 Micro Reactor"));
+            slots.Single(s => s.name == "Module 2").installModule(ModuleRegistry.Modules.Single(m => m.Name == "FM200"));
+            slots.Single(s => s.name == "Module 3").installModule(ModuleRegistry.Modules.Single(m => m.Name == "RS35 'Frontline' Radar"));
         }
     }
 }
